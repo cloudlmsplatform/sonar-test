@@ -1,0 +1,1 @@
+SonarQube demo with intentional issues: hardcoded secret, SQL injection, weak crypto, empty catch, NPE. Run: mvn clean verify sonar:sonar -Dsonar.projectKey=sonarqube-demo -Dsonar.host.url=http://HOST:9000 -Dsonar.login=TOKEN
